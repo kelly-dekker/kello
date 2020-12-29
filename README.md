@@ -1,5 +1,7 @@
-# watch-us-build-trello
+# Kello
 
+A Trello clone built with Vue & TailwindCSS following the tutorials on Vuemastery.com 
+ 
 ## Project setup
 ```
 yarn install
