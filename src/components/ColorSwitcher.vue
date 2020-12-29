@@ -15,7 +15,6 @@ export default {
   },
   mounted () {
     this.theme = localStorage.getItem('theme')
-    console.log(this.theme)
   },
   methods: {
     changeColorTheme () {
