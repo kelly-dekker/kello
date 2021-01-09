@@ -5,6 +5,7 @@ A Trello clone built with Vue & TailwindCSS following the tutorials on Vuemaster
 - Option to delete a colum
 - Option to delete a task
 - Add confirmation modals when deleting a task or column
+- Add current column name below Task title in Task View
 - Finetuning styling
  
 ## Project setup
