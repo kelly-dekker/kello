@@ -11,7 +11,7 @@
 
       <div class="column flex">
         <input
-          class="p-2 mr-2 flex-grow outline-none bg-grey-light rounded"
+          class="pl-5 pr-20 py-3 mr-2 flex-grow outline-none bg-grey-light rounded"
           placeholder="New Column Name"
           type="text"
           v-model="newColumnName"
