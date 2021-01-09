@@ -29,20 +29,16 @@
       <router-view/>
     </div>
 
-    <ColorSwitcher/>
-
   </div><!-- /.board -->
 </template>
 
 <script>
 import { mapState } from 'vuex'
 import BoardColumn from '@/components/BoardColumn'
-import ColorSwitcher from '@/components/ColorSwitcher'
 
 export default {
   components: {
-    BoardColumn,
-    ColorSwitcher
+    BoardColumn
   },
   data () {
     return {
