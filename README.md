@@ -1,6 +1,11 @@
 # Kello
 
-A Trello clone built with Vue & TailwindCSS following the tutorials on Vuemastery.com 
+A Trello clone built with Vue & TailwindCSS following the tutorials on Vuemastery.com. Added some features after the tutorial like:
+
+- Option to delete a colum
+- Option to delete a task
+- Add confirmation modals when deleting a task or column
+- Finetuning styling
  
 ## Project setup
 ```
