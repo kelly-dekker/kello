@@ -36,6 +36,15 @@ export default new Vuex.Store({
     UPDATE_TASK (state, { task, key, value }) {
       Vue.set(task, key, value)
     },
+    DELETE_TASK (state, { taskIndex }) {
+      for (const column of state.board.columns) {
+        for (const task of column.tasks) {
+          if (task.id === taskIndex) {
+            column.tasks.splice(taskIndex, 1)
+          }
+        }
+      }
+    },
     MOVE_TASK (state, { fromTasks, toTasks, fromTaskIndex, toTaskIndex }) {
       const taskToMove = fromTasks.splice(fromTaskIndex, 1)[0]
       toTasks.splice(toTaskIndex, 0, taskToMove)
